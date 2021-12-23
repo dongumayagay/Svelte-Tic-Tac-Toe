@@ -1,9 +1,16 @@
 const config = {
-	mode: 'jit',
-	purge: ['./src/**/*.{html,js,svelte,ts}'],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {},
+		container: {
+			center: true,
+			screens: {
+				sm: '640px',
+				md: '768px',
+				lg: '1024px'
+			}
+		}
 	},
 
 	plugins: []
