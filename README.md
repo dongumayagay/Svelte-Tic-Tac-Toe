@@ -1,5 +1,7 @@
-Simple Tic-Tac-Toe game using Svelte and Tailwind
+# Simple Tic-Tac-Toe game using Svelte and Tailwind
 
+## Requirements
+- Node.js
 
 ## Developing
 
